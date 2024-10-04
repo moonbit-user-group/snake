@@ -18,5 +18,5 @@ moon build --target wasm
 ## Run
 
 ```bash
-npx wasm4 run target/wasm/release/build/demo.wasm
+npx wasm4 run target/wasm/release/build/snake.wasm
 ```

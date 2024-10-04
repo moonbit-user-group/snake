@@ -38,6 +38,12 @@ pub fn update(self : Game) -> Unit {
     let dropped_pos = self.snake.update()
     if self.snake.is_dead() {
       self.game_over = true
+      @wasm4.tone_note_mode(
+        (@wasm4.Note::new(60, bend=0), None),
+        @wasm4.ADSR::new(60),
+        @wasm4.ADSRVolume::new(100),
+        @wasm4.ToneFlag::new(), 
+      )
       return
     }
 
