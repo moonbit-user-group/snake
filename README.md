@@ -2,6 +2,8 @@
 
 This is a simple snake game written in MoonBit, a language that compiles to WebAssembly.
 
+MoonBit version is `0.1.20240929`.
+
 ## Install dependencies
 
 ```bash
