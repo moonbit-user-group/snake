@@ -4,6 +4,8 @@ This is a simple snake game written in MoonBit, a language that compiles to WebA
 
 MoonBit version is `0.1.20240929`.
 
+![Snake Screenshot](snake.png)
+
 ## Install dependencies
 
 ```bash
