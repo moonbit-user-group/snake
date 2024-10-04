@@ -22,3 +22,9 @@ moon build --target wasm
 ```bash
 npx wasm4 run target/wasm/release/build/snake.wasm
 ```
+
+## Publish
+
+```bash
+npx wasm4 bundle --html game.html target/wasm/release/build/snake.wasm
+```
